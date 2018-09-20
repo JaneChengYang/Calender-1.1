@@ -37,7 +37,6 @@ class MessageViewController: UIViewController,UICollectionViewDelegate,UICollect
 //
 //        return CGSize(width: width , height: height)
 //    }
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
          let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! Cell
             for i in 0..<message.count{
